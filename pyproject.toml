@@ -4,3 +4,11 @@ version = "0.1.0"
 description = "Calculadora de riesgo cardiovascular a 10 años (PREVENT, AHA 2024) con Streamlit"
 requires-python = ">=3.11"
 dependencies = ["streamlit", "pandas"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.3",
+]
+
+[tool.ruff]
+line-length = 120
